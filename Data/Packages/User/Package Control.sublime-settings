@@ -9,9 +9,11 @@
 		"BracketHighlighter",
 		"Emmet",
 		"ExpandRegion",
+		"Goto-CSS-Declaration",
 		"Jade",
 		"jQuery",
 		"Package Control",
+		"Sass",
 		"SCSS"
 	]
 }
