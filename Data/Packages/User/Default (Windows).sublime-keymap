@@ -1,0 +1,20 @@
+[
+	{ "keys": ["ctrl+alt+shift+s"], "command": "save_all" },
+	{ "keys": ["ctrl+w"], "command": "expand_region" },
+	{
+		"keys": ["alt+u"],
+		"command": "expand_region",
+		"args": {"undo": true},
+		"context": [{ "key": "expand_region_soft_undo" }]
+	},
+	{
+		"keys": ["ctrl+alt+l"],
+		"command": "reindent",
+		"args": {
+			"single_line": false
+		}
+	},
+	{ "keys": ["ctrl+f4"], "command": "close" },
+	{ "keys": ["ctrl+shift+n"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["alt+j"], "command": "find_under_expand" }, 
+]
